@@ -1,0 +1,160 @@
+.body_wrapper {
+  width: 960px;
+  margin: 0 auto;
+  background: #efefef;
+}
+header {
+  padding: 0px;
+}
+h1 {
+  padding-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: 100;
+  color: #333;
+}
+.line {
+  background-color: #333333;
+  opacity: 0.5;
+  height: 7px;
+  margin-bottom: -7px;
+}
+
+aside {
+  float: right;
+}
+section {
+  overflow: hidden;
+  min-height: 170px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+  padding: 0.4em 0.9em;
+  margin: 0px -3px;
+  font-size: 6em;
+  display: inline-block;
+  color: #fff;
+  font-weight: 100;
+}
+.li-3,
+.li-5,
+.li-9 {
+  background: #2f454e;
+}
+.li-2,
+.li-4 {
+  background: #2b8ead;
+}
+.li-1,
+.li-8 {
+  background: #6f98a8;
+}
+.li-6,
+.li-7 {
+  background: #bfbfbf;
+}
+
+.btn {
+  display: block;
+  width: 240px;
+  position: relative;
+  top: 0px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  padding: 15px 50px;
+  margin: 25px 22px 0 10px;
+  border: 1px solid #c4c4c4;
+  background: #72c3dc;
+  color: #fff;
+  border: 1px solid #50bbdb;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px #2b8ead;
+  font-weight: 100;
+  transition: all 250ms ease;
+}
+.btn:hover {
+  background-color: #3ec6f0;
+  cursor: pointer;
+  color: #222;
+}
+.btn:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none !important;
+  transition: All 250ms ease;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  color: #333;
+  padding: 5px;
+}
+@media screen and (min-width: 360px) and (max-width: 760px) {
+  .body_wrapper {
+    background: none;
+    width: 100%;
+  }
+
+  aside {
+    float: none;
+    margin: 1em;
+    width: auto;
+    border: 0;
+    text-align: center;
+  }
+
+  h1 {
+    color: #fff;
+    height: 60px;
+  }
+  .btn {
+    overflow: visible;
+    padding: 15px 25px;
+    display: inline-block;
+    margin: 10px;
+    width: 135px;
+  }
+  ul li {
+    list-style: none;
+    padding: 0.3em;
+    display: block;
+    margin: 0;
+    color: #333;
+    font-size: 3em;
+    text-align: center;
+  }
+  .li-1,
+  .li-2,
+  .li-3,
+  .li-4,
+  .li-5,
+  .li-6,
+  .li-7,
+  .li-8,
+  .li-9 {
+    background: #efefef;
+    margin-bottom: 10px;
+  }
+  .li-3,
+  .li-5,
+  .li-9 {
+    border-left: 0.3em solid #2f454e;
+  }
+  .li-2,
+  .li-4 {
+    border-left: 0.3em solid #2b8ead;
+  }
+  .li-1,
+  .li-8 {
+    border-left: 0.3em solid #6f98a8;
+  }
+  .li-6,
+  .li-7 {
+    border-left: 0.3em solid #bfbfbf;
+  }
+}
